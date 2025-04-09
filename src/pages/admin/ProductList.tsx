@@ -1,10 +1,9 @@
-
 import { useProducts } from '@/context/ProductContext';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 import { Search, Plus, Pencil, Trash2, Eye } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { 

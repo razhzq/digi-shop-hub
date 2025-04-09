@@ -1,10 +1,9 @@
-
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useProducts } from '@/context/ProductContext';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 import { ArrowLeft } from 'lucide-react';
 
 const ProductDetail = () => {

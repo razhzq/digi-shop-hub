@@ -1,7 +1,7 @@
 
 import React, { createContext, useState, useContext } from 'react';
 import { Product, initialProducts } from '@/lib/data';
-import { toast } from '@/components/ui/sonner';
+import { toast } from "sonner";
 
 interface ProductContextType {
   products: Product[];
